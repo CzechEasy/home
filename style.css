@@ -1157,6 +1157,10 @@ video {
     margin-top: 0px;
   }
 
+  .md\:inline-block {
+    display: inline-block;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1171,6 +1175,11 @@ video {
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
